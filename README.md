@@ -24,8 +24,13 @@ This repository documents the process of setting up a fully functional VPC envir
 - **EC2 Instance**: Launched in the private subnet to test the connectivity through the NAT Gateway.
 - **Connectivity Test**: Successfully connected to the internet without allowing inbound connections from outside the VPC.
 
-## Screenshots and Logs
-- Screenshots of the VPC, NAT Gateway setup, and security configurations are included in the `screenshots/` folder.
+## Logs
+
+Detailed API logs of the VPC and related configurations i  found in the [logs directory](logs/).
+- [`vpc-setup.log`](logs/vpc-setup.log): Contains logs related to the creation and setup of the VPC and subnets.
+- [`nat-gateway-setup.log`](logs/nat-gateway-setup.log): Logs activities during the setup of the NAT Gateway.
+- [`security-setup.log`](logs/security-setup.log): Security group and NACL configurations and modifications.
+
 
 ## Configuration Files
 - JSON policies and configuration scripts can be found in the `config-files/` folder.
